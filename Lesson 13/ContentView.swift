@@ -9,13 +9,37 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+       
+        NavigationStack {
+            VStack {
+                Text("This is the root view🌳")
+                //                NavigationLink(destination: Text("You've arrived to the second view!")) {
+                //                    Text("Click me!!!")
+                
+                //}
+                
+                NavigationLink(destination: SecondView()) {
+                    Text("Take me to a new view!")
+                }
+                
+            } //VStack
+            
+            .toolbar{
+                NavigationLink(destination: SecondView()) {
+                    Text("About")
+                }
+                
+            }//toolbar
+            
+            .navigationTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(false)
+            
+        } //nav stack
+
+        
+        
+        
     }
 }
 

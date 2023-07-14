@@ -11,6 +11,7 @@
 		BDD744A42A61AD9D00C1E00D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD744A32A61AD9D00C1E00D /* ContentView.swift */; };
 		BDD744A62A61AD9E00C1E00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD744A52A61AD9E00C1E00D /* Assets.xcassets */; };
 		BDD744A92A61AD9F00C1E00D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD744A82A61AD9F00C1E00D /* Preview Assets.xcassets */; };
+		BDD744B02A61B3F000C1E00D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD744AF2A61B3F000C1E00D /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BDD744A32A61AD9D00C1E00D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDD744A52A61AD9E00C1E00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD744A82A61AD9F00C1E00D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD744AF2A61B3F000C1E00D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BDD744A12A61AD9D00C1E00D /* Lesson_13App.swift */,
 				BDD744A32A61AD9D00C1E00D /* ContentView.swift */,
+				BDD744AF2A61B3F000C1E00D /* SecondView.swift */,
 				BDD744A52A61AD9E00C1E00D /* Assets.xcassets */,
 				BDD744A72A61AD9F00C1E00D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD744B02A61B3F000C1E00D /* SecondView.swift in Sources */,
 				BDD744A42A61AD9D00C1E00D /* ContentView.swift in Sources */,
 				BDD744A22A61AD9D00C1E00D /* Lesson_13App.swift in Sources */,
 			);
